@@ -20,12 +20,15 @@
       "prefix": "app",
       "styles": [
         "styles.css",
+        "../node_modules/bootstrap/dist/css/bootstrap.min.css",
         "assets/css/jquery.dataTables.min.css",
-        "assets/css/buttons.dataTables.min.css"
+        "assets/css/buttons.dataTables.min.css",
+        "../node_modules/font-awesome/css/font-awesome.css"
       ],
       "scripts": [
-      "assets/js/jquery-3.3.1.js",
-      "assets/js/jquery.dataTables.min.js",
+        "assets/js/jquery-3.3.1.js",
+        "../node_modules/bootstrap/dist/js/bootstrap.min.js",
+        "assets/js/jquery.dataTables.min.js",
         "assets/js/dataTables.buttons.min.js",
         "assets/js/buttons.flash.min.js",
         "assets/js/jszip.min.js",

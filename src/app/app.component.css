@@ -1,0 +1,8 @@
+/* 
+:host >>> .exportButton{
+    display: contents !important;
+}
+:host >>> .exportButton img{
+    width: 10% !important;
+} 
+*/

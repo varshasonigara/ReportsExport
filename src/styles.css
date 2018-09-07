@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+div.dt-buttons {
+    position: relative !important;
+    float: right !important;
+    display: flex !important;
+}
+
+.exportButton {
+    width: 40px !important;
+    height: 40px !important;
+    padding: 0 !important;
+    border: 0px solid !important;
+}
+.exportButton img {
+    width: 100% !important;
+    height: 100% !important;
+}
