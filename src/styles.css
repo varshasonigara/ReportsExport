@@ -1,10 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
 div.dt-buttons {
     position: relative !important;
-    float: right !important;
+    /* float: right !important; */
     display: flex !important;
+    justify-content: flex-end !important;
+    width: 98% !important;
+    margin: auto !important;
 }
-
+.table.dataTable{
+    width: 98% !important;
+    margin: auto !important;
+}
+div.dataTables_wrapper div.dataTables_paginate {
+    margin: auto !important;
+    width: 98% !important;
+}
 .exportButton {
     width: 40px !important;
     height: 40px !important;
@@ -14,4 +24,16 @@ div.dt-buttons {
 .exportButton img {
     width: 100% !important;
     height: 100% !important;
+}
+.page-link {
+   border: none !important;
+}
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0,0,0,0.02) !important;
+}
+.table-striped tbody tr:nth-of-type(even) {
+    background-color: rgba(0,0,0,0) !important;
+}
+.page-link:focus {
+    box-shadow: none !important;
 }

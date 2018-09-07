@@ -16,6 +16,17 @@ export class AppComponent implements OnInit {
       $('#example').DataTable( {
         dom: 'Bfrtip',
         searching: false,
+        pagingType: 'full_numbers',
+        info: false,
+        pageLength: 10,
+        language: {
+          paginate: {
+            first: '<i class="fa fa-angle-double-left"></i>',
+            last: '<i class="fa fa-angle-double-right"></i>',
+            previous: '<i class="fa fa-angle-left"></i>', 
+            next: '<i class="fa fa-angle-right"></i>'
+          }
+        },
         buttons: [
           {
               extend:    'copyHtml5',
@@ -39,7 +50,8 @@ export class AppComponent implements OnInit {
               extend:    'pdfHtml5',
               text:      '<img src="../assets/icons/pdf.png"/>',
               titleAttr: 'PDF',
-              className: 'exportButton'
+              className: 'exportButton',
+              title : 'Report'
           }
       ]
     } );
